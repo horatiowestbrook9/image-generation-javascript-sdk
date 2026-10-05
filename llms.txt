@@ -1,0 +1,8 @@
+# GPT Image 2 — Argolink
+
+- Model: gpt-image-2
+- Intent: JavaScript image SDK and polling
+- Model page: https://argolink.io/gh-image-generation-javascript-sdk
+- API docs: https://argolink.io/gh-unified-api-docs
+- Examples: examples/request.sh, examples/client.py
+- Contract: docs/model-contract.md
