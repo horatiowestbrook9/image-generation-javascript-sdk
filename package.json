@@ -1,0 +1,21 @@
+{
+  "name": "image-generation-javascript-sdk",
+  "version": "0.1.0",
+  "description": "Small typed JavaScript client for OpenAI-style image APIs: GPT Image 2 and 2.5, Nano Banana and Grok Imagine generation and edits",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src"],
+  "engines": { "node": ">=18.17" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["image-generation", "gpt-image-2", "nano-banana", "grok-imagine", "openai-compatible", "javascript", "typescript"],
+  "license": "MIT"
+}
